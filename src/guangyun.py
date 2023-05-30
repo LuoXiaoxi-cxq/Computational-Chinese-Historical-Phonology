@@ -1,8 +1,7 @@
 import pandas as pd
 from pulp import *
 from global_var import *
-from fanqie import get_first_pron, get_common_pron_id, get_yidu
-import gurobipy
+from tool_funcion import get_first_pron, get_common_pron_id, get_yidu
 
 """
 以下添加反切约束，来自《广韵》反切求同条例
