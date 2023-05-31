@@ -1,13 +1,13 @@
 # Computational-Chinese-Historical-Phonology
-Use Convex Optimization to solve problems in Chinese Historical Phonology, especially reconstruction. At present, only the *Qie Yun* system (Middle Chinese) is modeled by Linear Programming. In the future, I will use stronger mathematical methods and expand the scope of research to the entire history of Chinese.  
+Use Convex Optimization to solve problems in Chinese Historical Phonology, especially reconstruction. At present, only the *Qie Yun* system (Middle Chinese) is modeled by Linear Programming. In the future, I will use stronger mathematical methods and expand the scope of research to the entire history of Chinese Phonology.  
 本项目意在用凸优化方法研究汉语语音史。目前，我只用了线性规划给《切韵》音系建模（即version1文件夹），但后续会用更强的数学方法将研究范围扩大到整个汉语语音史。  
 
 ## Environment Requirement
 Packages used in this project are as follows:  
-`numpy==1.21.5`
-`pandas==1.4.2`
-`PuLP==2.6.0`
-`tqdm==4.64.0`   
+`numpy==1.21.5`  
+`pandas==1.4.2`  
+`PuLP==2.6.0`  
+`tqdm==4.64.0`     
 Moreover, a solver for linear programming called `Groubi` also needs to be installed. You can apply for its free academic version [here](https://coin-or.github.io/pulp/guides/how_to_configure_solvers.html).  
 The environment configuration of this project is complicated. It took me a lot of time to figure out how to use the `GROUBI` solver with the `pulp` package (You may need to read [this](https://coin-or.github.io/pulp/guides/how_to_configure_solvers.html)), but I couldn't remember all the details since it has been a long time. 
 ## Code Structure
